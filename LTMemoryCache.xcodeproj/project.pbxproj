@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE89C0351D0DAB9E007EC4FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE89C0331D0DAB9E007EC4FB /* Main.storyboard */; };
+		AE89C0371D0DAB9E007EC4FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE89C0361D0DAB9E007EC4FB /* Assets.xcassets */; };
+		AE89C03A1D0DAB9E007EC4FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE89C0381D0DAB9E007EC4FB /* LaunchScreen.storyboard */; };
+		AE89C0451D0DAB9F007EC4FB /* LTMemoryCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE89C0441D0DAB9F007EC4FB /* LTMemoryCacheTests.m */; };
+		AE89C0501D0DAB9F007EC4FB /* LTMemoryCacheUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE89C04F1D0DAB9F007EC4FB /* LTMemoryCacheUITests.m */; };
+		AE89C06A1D0DABBE007EC4FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE89C0601D0DABBE007EC4FB /* AppDelegate.m */; };
+		AE89C06B1D0DABBE007EC4FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE89C0611D0DABBE007EC4FB /* main.m */; };
+		AE89C06C1D0DABBE007EC4FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE89C0691D0DABBE007EC4FB /* ViewController.m */; };
+		AE89C06F1D0DACA2007EC4FB /* LTMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AE89C06E1D0DACA2007EC4FB /* LTMemoryCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE89C0411D0DAB9F007EC4FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE89C01F1D0DAB9D007EC4FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE89C0261D0DAB9E007EC4FB;
+			remoteInfo = LTMemoryCache;
+		};
+		AE89C04C1D0DAB9F007EC4FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE89C01F1D0DAB9D007EC4FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE89C0261D0DAB9E007EC4FB;
+			remoteInfo = LTMemoryCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE89C0271D0DAB9E007EC4FB /* LTMemoryCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTMemoryCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE89C0341D0DAB9E007EC4FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE89C0361D0DAB9E007EC4FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE89C0391D0DAB9E007EC4FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE89C03B1D0DAB9E007EC4FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE89C0401D0DAB9F007EC4FB /* LTMemoryCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTMemoryCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE89C0441D0DAB9F007EC4FB /* LTMemoryCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTMemoryCacheTests.m; sourceTree = "<group>"; };
+		AE89C0461D0DAB9F007EC4FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE89C04B1D0DAB9F007EC4FB /* LTMemoryCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTMemoryCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE89C04F1D0DAB9F007EC4FB /* LTMemoryCacheUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTMemoryCacheUITests.m; sourceTree = "<group>"; };
+		AE89C0511D0DAB9F007EC4FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE89C05F1D0DABBE007EC4FB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE89C0601D0DABBE007EC4FB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE89C0611D0DABBE007EC4FB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE89C0681D0DABBE007EC4FB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE89C0691D0DABBE007EC4FB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE89C06D1D0DACA2007EC4FB /* LTMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMemoryCache.h; sourceTree = "<group>"; };
+		AE89C06E1D0DACA2007EC4FB /* LTMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMemoryCache.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE89C0241D0DAB9E007EC4FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE89C03D1D0DAB9F007EC4FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE89C0481D0DAB9F007EC4FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE89C01E1D0DAB9D007EC4FB = {
+			isa = PBXGroup;
+			children = (
+				AE89C0291D0DAB9E007EC4FB /* LTMemoryCache */,
+				AE89C0431D0DAB9F007EC4FB /* LTMemoryCacheTests */,
+				AE89C04E1D0DAB9F007EC4FB /* LTMemoryCacheUITests */,
+				AE89C0281D0DAB9E007EC4FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE89C0281D0DAB9E007EC4FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE89C0271D0DAB9E007EC4FB /* LTMemoryCache.app */,
+				AE89C0401D0DAB9F007EC4FB /* LTMemoryCacheTests.xctest */,
+				AE89C04B1D0DAB9F007EC4FB /* LTMemoryCacheUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE89C0291D0DAB9E007EC4FB /* LTMemoryCache */ = {
+			isa = PBXGroup;
+			children = (
+				AE89C05D1D0DABBE007EC4FB /* Classes */,
+				AE89C0331D0DAB9E007EC4FB /* Main.storyboard */,
+				AE89C0361D0DAB9E007EC4FB /* Assets.xcassets */,
+				AE89C0381D0DAB9E007EC4FB /* LaunchScreen.storyboard */,
+				AE89C03B1D0DAB9E007EC4FB /* Info.plist */,
+				AE89C02A1D0DAB9E007EC4FB /* Supporting Files */,
+			);
+			path = LTMemoryCache;
+			sourceTree = "<group>";
+		};
+		AE89C02A1D0DAB9E007EC4FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE89C0431D0DAB9F007EC4FB /* LTMemoryCacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE89C0441D0DAB9F007EC4FB /* LTMemoryCacheTests.m */,
+				AE89C0461D0DAB9F007EC4FB /* Info.plist */,
+			);
+			path = LTMemoryCacheTests;
+			sourceTree = "<group>";
+		};
+		AE89C04E1D0DAB9F007EC4FB /* LTMemoryCacheUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE89C04F1D0DAB9F007EC4FB /* LTMemoryCacheUITests.m */,
+				AE89C0511D0DAB9F007EC4FB /* Info.plist */,
+			);
+			path = LTMemoryCacheUITests;
+			sourceTree = "<group>";
+		};
+		AE89C05D1D0DABBE007EC4FB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AE89C05E1D0DABBE007EC4FB /* AppDelegate */,
+				AE89C0621D0DABBE007EC4FB /* Common */,
+				AE89C0631D0DABBE007EC4FB /* Example */,
+				AE89C0641D0DABBE007EC4FB /* PCH */,
+				AE89C0651D0DABBE007EC4FB /* Util */,
+				AE89C0661D0DABBE007EC4FB /* Vendor */,
+				AE89C0671D0DABBE007EC4FB /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AE89C05E1D0DABBE007EC4FB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				AE89C05F1D0DABBE007EC4FB /* AppDelegate.h */,
+				AE89C0601D0DABBE007EC4FB /* AppDelegate.m */,
+				AE89C0611D0DABBE007EC4FB /* main.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		AE89C0621D0DABBE007EC4FB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AE89C0631D0DABBE007EC4FB /* Example */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		AE89C0641D0DABBE007EC4FB /* PCH */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PCH;
+			sourceTree = "<group>";
+		};
+		AE89C0651D0DABBE007EC4FB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		AE89C0661D0DABBE007EC4FB /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				AE89C06D1D0DACA2007EC4FB /* LTMemoryCache.h */,
+				AE89C06E1D0DACA2007EC4FB /* LTMemoryCache.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		AE89C0671D0DABBE007EC4FB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE89C0681D0DABBE007EC4FB /* ViewController.h */,
+				AE89C0691D0DABBE007EC4FB /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE89C0261D0DAB9E007EC4FB /* LTMemoryCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE89C0541D0DAB9F007EC4FB /* Build configuration list for PBXNativeTarget "LTMemoryCache" */;
+			buildPhases = (
+				AE89C0231D0DAB9E007EC4FB /* Sources */,
+				AE89C0241D0DAB9E007EC4FB /* Frameworks */,
+				AE89C0251D0DAB9E007EC4FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTMemoryCache;
+			productName = LTMemoryCache;
+			productReference = AE89C0271D0DAB9E007EC4FB /* LTMemoryCache.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE89C03F1D0DAB9F007EC4FB /* LTMemoryCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE89C0571D0DAB9F007EC4FB /* Build configuration list for PBXNativeTarget "LTMemoryCacheTests" */;
+			buildPhases = (
+				AE89C03C1D0DAB9F007EC4FB /* Sources */,
+				AE89C03D1D0DAB9F007EC4FB /* Frameworks */,
+				AE89C03E1D0DAB9F007EC4FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE89C0421D0DAB9F007EC4FB /* PBXTargetDependency */,
+			);
+			name = LTMemoryCacheTests;
+			productName = LTMemoryCacheTests;
+			productReference = AE89C0401D0DAB9F007EC4FB /* LTMemoryCacheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE89C04A1D0DAB9F007EC4FB /* LTMemoryCacheUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE89C05A1D0DAB9F007EC4FB /* Build configuration list for PBXNativeTarget "LTMemoryCacheUITests" */;
+			buildPhases = (
+				AE89C0471D0DAB9F007EC4FB /* Sources */,
+				AE89C0481D0DAB9F007EC4FB /* Frameworks */,
+				AE89C0491D0DAB9F007EC4FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE89C04D1D0DAB9F007EC4FB /* PBXTargetDependency */,
+			);
+			name = LTMemoryCacheUITests;
+			productName = LTMemoryCacheUITests;
+			productReference = AE89C04B1D0DAB9F007EC4FB /* LTMemoryCacheUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE89C01F1D0DAB9D007EC4FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = linmingjun;
+				TargetAttributes = {
+					AE89C0261D0DAB9E007EC4FB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AE89C03F1D0DAB9F007EC4FB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AE89C0261D0DAB9E007EC4FB;
+					};
+					AE89C04A1D0DAB9F007EC4FB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AE89C0261D0DAB9E007EC4FB;
+					};
+				};
+			};
+			buildConfigurationList = AE89C0221D0DAB9D007EC4FB /* Build configuration list for PBXProject "LTMemoryCache" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE89C01E1D0DAB9D007EC4FB;
+			productRefGroup = AE89C0281D0DAB9E007EC4FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE89C0261D0DAB9E007EC4FB /* LTMemoryCache */,
+				AE89C03F1D0DAB9F007EC4FB /* LTMemoryCacheTests */,
+				AE89C04A1D0DAB9F007EC4FB /* LTMemoryCacheUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE89C0251D0DAB9E007EC4FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE89C03A1D0DAB9E007EC4FB /* LaunchScreen.storyboard in Resources */,
+				AE89C0371D0DAB9E007EC4FB /* Assets.xcassets in Resources */,
+				AE89C0351D0DAB9E007EC4FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE89C03E1D0DAB9F007EC4FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE89C0491D0DAB9F007EC4FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE89C0231D0DAB9E007EC4FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE89C06C1D0DABBE007EC4FB /* ViewController.m in Sources */,
+				AE89C06B1D0DABBE007EC4FB /* main.m in Sources */,
+				AE89C06A1D0DABBE007EC4FB /* AppDelegate.m in Sources */,
+				AE89C06F1D0DACA2007EC4FB /* LTMemoryCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE89C03C1D0DAB9F007EC4FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE89C0451D0DAB9F007EC4FB /* LTMemoryCacheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE89C0471D0DAB9F007EC4FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE89C0501D0DAB9F007EC4FB /* LTMemoryCacheUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE89C0421D0DAB9F007EC4FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE89C0261D0DAB9E007EC4FB /* LTMemoryCache */;
+			targetProxy = AE89C0411D0DAB9F007EC4FB /* PBXContainerItemProxy */;
+		};
+		AE89C04D1D0DAB9F007EC4FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE89C0261D0DAB9E007EC4FB /* LTMemoryCache */;
+			targetProxy = AE89C04C1D0DAB9F007EC4FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE89C0331D0DAB9E007EC4FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE89C0341D0DAB9E007EC4FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE89C0381D0DAB9E007EC4FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE89C0391D0DAB9E007EC4FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE89C0521D0DAB9F007EC4FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE89C0531D0DAB9F007EC4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE89C0551D0DAB9F007EC4FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LTMemoryCache/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = linmingjun.LTMemoryCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE89C0561D0DAB9F007EC4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LTMemoryCache/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = linmingjun.LTMemoryCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE89C0581D0DAB9F007EC4FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LTMemoryCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = linmingjun.LTMemoryCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTMemoryCache.app/LTMemoryCache";
+			};
+			name = Debug;
+		};
+		AE89C0591D0DAB9F007EC4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LTMemoryCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = linmingjun.LTMemoryCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTMemoryCache.app/LTMemoryCache";
+			};
+			name = Release;
+		};
+		AE89C05B1D0DAB9F007EC4FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTMemoryCacheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = linmingjun.LTMemoryCacheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LTMemoryCache;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AE89C05C1D0DAB9F007EC4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTMemoryCacheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = linmingjun.LTMemoryCacheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LTMemoryCache;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE89C0221D0DAB9D007EC4FB /* Build configuration list for PBXProject "LTMemoryCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE89C0521D0DAB9F007EC4FB /* Debug */,
+				AE89C0531D0DAB9F007EC4FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE89C0541D0DAB9F007EC4FB /* Build configuration list for PBXNativeTarget "LTMemoryCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE89C0551D0DAB9F007EC4FB /* Debug */,
+				AE89C0561D0DAB9F007EC4FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE89C0571D0DAB9F007EC4FB /* Build configuration list for PBXNativeTarget "LTMemoryCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE89C0581D0DAB9F007EC4FB /* Debug */,
+				AE89C0591D0DAB9F007EC4FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE89C05A1D0DAB9F007EC4FB /* Build configuration list for PBXNativeTarget "LTMemoryCacheUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE89C05B1D0DAB9F007EC4FB /* Debug */,
+				AE89C05C1D0DAB9F007EC4FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE89C01F1D0DAB9D007EC4FB /* Project object */;
+}
